@@ -317,6 +317,9 @@ FEATURES ↓
   display: flex;
   flex-wrap: wrap;
   margin-top: 40px;
+  max-width: 1280px;
+  margin: auto;
+  justify-content: space-between;
 }
 #features .row__narrow {
   display: flex;
@@ -592,7 +595,7 @@ PRICING ↓
 .plans {
   display: flex;
   position: relative;
-  flex-direction: row;
+  flex-direction: rowy44;
   width: 100%;
   justify-content: space-between;
   gap: 24px;
@@ -946,7 +949,7 @@ START / CALL TO ACTION ↓
   transition: all 300ms ease;
 }
 .start__button:hover:nth-child(1) {
-  background-color:#e53e3e;
+  background-color: #e53e3e;
 }
 
 .start__button:nth-child(2) {
@@ -954,8 +957,8 @@ START / CALL TO ACTION ↓
   transition: all 300ms ease;
 }
 .start__button:hover:nth-child(2) {
-    background-color: rgba(247, 250, 252);
-    color: rgba(100, 21, 255);
+  background-color: rgba(247, 250, 252);
+  color: rgba(100, 21, 255);
 }
 .start__button {
   padding: 20px 40px;
@@ -1128,8 +1131,44 @@ MOBILE RESPONSIVENESS ↓
     flex-direction: column;
     align-items: center;
   }
+  .header__description {
+    width: 100%;
+  }
   #pricing .row {
     margin-top: 40px;
+  }
+  .plans {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav__links {
+    display: none;
+  }
+
+  .start__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+  }
+
+  .start__title {
+    width: 100%;
+  }
+
+  .start__buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+  }
+
+  .start__button {
+    width: 100%;
+    max-width: 280px;
+  
   }
 }
 
