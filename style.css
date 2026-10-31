@@ -405,7 +405,7 @@ QUALITY WORK ↓
 }
 .quality__description,
 .quality__img--wrapper {
-  width: 50%;
+  width: 100%;
 }
 .quality__img--wrapper {
   border-radius: 4px;
@@ -1168,8 +1168,31 @@ MOBILE RESPONSIVENESS ↓
   .start__button {
     width: 100%;
     max-width: 280px;
-  
   }
+}
+.quality__description {
+  width: 90%;
+}
+
+.steps__img {
+  width: 100%;
+}
+.step__para {
+  width: 100%;
+}
+.section__para {
+  width: 100%;
+}
+.value__para {
+  width: 100%;
+}
+.value__img {
+  width: 100%;
+  margin: 0;
+}
+.testimonials__description {
+  width: 100%;
+  padding-left: 0px;
 }
 
 @media (max-width: 640px) {
